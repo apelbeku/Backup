@@ -1,0 +1,82 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.jumbotron {
+	height: 100%;
+	background-image: url('https://images.unsplash.com/photo-1496196614460-48988a57fccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	background-size: cover;
+	/*padding-top: 200px;*/
+}
+.sol-item {
+	background: url('https://hellosehat.com/wp-content/uploads/2017/11/pelihara-kura-kura-1-1024x731.jpg');
+	background-size: cover;
+	height: 20vw;
+	position: relative;
+}
+.sol-overlay {
+	position: absolute;
+	left: 0; bottom: 0; right: 0; top: 0;
+	background: #002;
+	opacity: 0.24;
+}
+.sol-capt {
+	color: #fff;
+	position: absolute;
+	top: 50%; right: 0; left: 0;
+	transform: translateY(-50%);
+}
+.sol-capt i {
+	font-size: 50px;
+}
+.work-item {
+	display: block;
+	overflow: hidden;
+	height: 30vw;
+	background: salmon;
+	position: relative;
+}
+.work-item img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.bawah {
+	height: 100px;
+}
+.item-bg {
+	background: url('https://colorlib.com/preview/theme/busicol/img/banner/about_bg.png');
+	padding: 100px 0;
+	position: relative;
+}
+.item-bg-redup {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	background: #000;
+	opacity: 0.6;
+}
+.item-bg-item {
+	height: 20vw;
+	position: relative;
+	border: 1px solid white;
+}
+.item-bg-capt {
+	color: #fff;
+	position: absolute;
+	top: 50%; right: 0; left: 0;
+	transform: translateY(-50%);
+}
+.item-bg-capt i {
+	font-size: 50px;
+}
+.item-bg-capt p {
+	font-size: 30px;
+}
+.footer-list a {
+	display: block;
+	margin-bottom: 1rem;
+	color: inherit;
+}

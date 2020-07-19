@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	var nomor 	= '4224';
+
+	var mobil 	= {
+		warna: "merah",
+		merek: 'Mercedez',
+		plat: 'BM ${nomor} CM',
+		pintu: {
+			kaca: {
+				ukuran: '500x1000',
+				warna: 'pilem',
+			},
+			gagang: false,
+			tombol: false,
+		},
+	};
+
+	var article = {
+		data: [
+			{
+				id:1,
+				judul: 'mencari rizqi',
+				author: 'anang',
+			},
+			{
+				id:2,
+				judul: 'mencari semut',
+				author: 'iyasmzn',
+			},
+			{
+				id:3,
+				judul: 'mencari istri',
+				author: 'craft',
+			},
+		],
+		meta: {
+			status: '200',
+		},
+	};
+
+	alert(mobil.pintu.kaca.ukuran);
+	document.write(article.data[1].judul);
+
+	// Cara yang benar
+	article.data.forEach( function(art) {
+		document.write(art.judul);
+		document.write('<br />');
+	});
+</script>
+</body>
+</html>

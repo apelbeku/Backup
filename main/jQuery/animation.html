@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#header {
+			background-color: green;
+			text-align: center;
+			padding: 50px;
+		}
+		#submain {
+			background-color: #2a77dd;
+			border: 1px solid black;
+		}
+		#submain1 {
+			background-color: #bf3377;
+			border: 1px solid black;
+			margin-top: 20px;
+		}
+		#submain2 {
+			background-color: #ccaabb;
+			border: 1px solid black;
+			margin-top: 20px;
+		}
+		#button3 {
+			position: relative;
+		}
+		#a4 {
+			padding-top: 50px;
+			position: absolute;
+			top: 400px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div id="submain">
+			<p id="1">ini hide</p>
+		</div>
+		<div id="submain1">
+			<p id="2">ini show</p>
+		</div>
+		<div id="submain2">
+			<p id="3">ini hide</p>
+		</div>
+		<button id="button">click</button>
+		<button id="button1">click</button>
+	</div>
+	<button id="button3">click here</button>
+	<div id="a4">
+		<button>Click Here</button>
+	</div>
+
+	<!-- srcipt -->
+
+
+	<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#button3").click(function() {
+				$("#header, #1, #2, #3").slideDown(3000);
+				$("#button3").animate({left: '630px'});
+			});
+			$("#button").click(function() {
+				$("p").hide();
+			});
+			$("#button1").click(function() {
+				$("p").show();
+				$("#button3").animate({left: '0px'});
+			});
+			$("#submain").click(function() {
+				$("#1, #2, #3, #header").fadeOut(2000);
+			});
+			$("#a4").click(function() {
+				$("#header, #1, #2, #3").stop();
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+.jumbotron {
+	height: 100%;
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06653b48-43c3-403f-9d72-c1c5519db560/dclqlgt-e0e30ad7-080f-456b-bb6e-9f3516e899d6.jpg/v1/fill/w_1259,h_635,q_70,strp/nocturnal_encounters_ii_by_pajunen_dclqlgt-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzA2IiwicGF0aCI6IlwvZlwvMDY2NTNiNDgtNDNjMy00MDNmLTlkNzItYzFjNTUxOWRiNTYwXC9kY2xxbGd0LWUwZTMwYWQ3LTA4MGYtNDU2Yi1iYjZlLTlmMzUxNmU4OTlkNi5qcGciLCJ3aWR0aCI6Ijw9MTQwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5dsEm_8phb5kKKOkVZu-qlxmBFB3eDMStXXCnnC_cqc);
+	background-size: cover;
+	padding-top: 15%;
+}
+.sol-item {
+	background: url(https://images.unsplash.com/photo-1562886929-ea04b6ff8d70?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	height: 20vw;
+	position: relative;
+}
+.sol-overlay {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	background: #000;
+	opacity: 0.3;
+}
+.sol-capt {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+.sol-capt i {
+	font-size: 50px;
+}
+.sol-capt p {
+	font-size: 30px; 
+}
+.work-item {
+	display: block;
+	overflow: hidden;
+	height: 30vw;
+	background: salmon;
+	position: relative;
+}
+.work-item img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.bawah {
+	height: 100px;
+}
+.item-bg {
+	/*background: url('https://colorlib.com/preview/theme/busicol/img/banner/about_bg.png');*/
+	padding: 100px 0;
+	position: relative;
+}
+.item-bg-redup {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	background: #000;
+	opacity: 0.6;
+}
+.item-bg-item {
+	height: 20vw;
+	position: relative;
+	border: 1px solid white;
+}
+.item-bg-capt {
+	color: #fff;
+	position: absolute;
+	top: 50%; right: 0; left: 0;
+	transform: translateY(-50%);
+}
+.item-bg-capt i {
+	font-size: 50px;
+}
+.item-bg-capt p {
+	font-size: 30px;
+}
+.footer-list a {
+	display: block;
+	margin-bottom: 1rem;
+	color: inherit;
+}
